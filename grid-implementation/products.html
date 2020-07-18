@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(5, 171px);
+      gap: 15px;
+      justify-content: center;
+      margin: 50px auto;
+    }
+    .product-item {
+      border: 1px solid #eaeaea;
+      border-radius: 8px;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px;
+    }
+    .product-item img {
+      width: 100%;
+      min-height: 171px;
+    }
+    .product-item .product-name {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: capitalize;
+      padding: 0 10px;
+      line-height: 19px;
+      max-height: 38px;
+      white-space: normal;
+      overflow-wrap: break-word;
+      overflow: hidden;
+      margin-bottom: 5px;
+    }
+    .product-item .price {
+      font-size: 14px;
+      font-weight: 700;
+      -webkit-font-smoothing: antialiased;
+      padding: 0 10px;
+    }
+    .product-item .stock-info {
+      color: #888 !important;
+      font-size: 10px;
+      padding: 10px 10px 0px 10px;
+    }
+    .product-item .label {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 0 10px;
+    }
+    .label .grosir {
+      background-color: rgba(2,149,216,.12);
+      font-weight: 600px;
+      font-size: 8px;
+      box-sizing: border-box;
+      padding: 4px;
+      border-radius: 5px;
+      color: #0295d8;
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+    }
+    .label .promo {
+      background-color: rgba(220,20,60,.12);
+      font-weight: 600px;
+      font-size: 8px;
+      box-sizing: border-box;
+      padding: 4px;
+      border-radius: 5px;
+      color: #dc143c;
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+    }
+    
+
+    /* Responsive Breakpoint */
+    @media(max-width: 700px) {
+      .container {
+        grid-template-columns: repeat(2 minmax(200px, 1fr));
+      }
+    }
+    @media(max-width: 500px) {
+      .container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="product-item">
+      <img src="../img/1.png" alt="">
+      <p class="product-name">Sarung Tangan Adidas</p>
+      <div class="label">
+        <span class="grosir">Grosir</span>
+        <span class="promo">Mulai dari</span>
+      </div>
+      <span class="price">Rp 10.000</span>
+      <p class="stock-info">Tersedia 59 stok</p>
+    </div>
+    <div class="product-item">
+      <img src="../img/2.png" alt="">
+      <p class="product-name">Sarung Tangan Adidas 2</p>
+      <div class="label">
+        <span class="grosir">Grosir</span>
+        <span class="promo">Mulai dari</span>
+      </div>
+      <span class="price">Rp 10.000</span>
+      <p class="stock-info">Tersedia 59 stok</p>
+    </div>
+    <div class="product-item">
+      <img src="../img/3.png" alt="">
+      <p class="product-name">Sarung Tangan Adidas 3</p>
+      <div class="label">
+        <span class="grosir">Grosir</span>
+        <span class="promo">Mulai dari</span>
+      </div>
+      <span class="price">Rp 10.000</span>
+      <p class="stock-info">Tersedia 59 stok</p>
+    </div>
+    <div class="product-item">
+      <img src="../img/4.png" alt="">
+      <p class="product-name">Sarung Tangan Adidas 4</p>
+      <div class="label">
+        <span class="grosir">Grosir</span>
+        <span class="promo">Mulai dari</span>
+      </div>
+      <span class="price">Rp 10.000</span>
+      <p class="stock-info">Tersedia 59 stok</p>
+    </div>
+    <div class="product-item">
+      <img src="../img/5.png" alt="">
+      <p class="product-name">Sarung Tangan Adidas 5</p>
+      <div class="label">
+        <span class="grosir">Grosir</span>
+        <span class="promo">Mulai dari</span>
+      </div>
+      <span class="price">Rp 10.000</span>
+      <p class="stock-info">Tersedia 59 stok</p>
+    </div>
+    <div class="product-item">
+      <img src="../img/6.png" alt="">
+      <p class="product-name">Sarung Tangan Adidas 6</p>
+      <div class="label">
+        <span class="grosir">Grosir</span>
+        <span class="promo">Mulai dari</span>
+      </div>
+      <span class="price">Rp 10.000</span>
+      <p class="stock-info">Tersedia 59 stok</p>
+    </div>
+    <div class="product-item">
+      <img src="../img/1.png" alt="">
+      <p class="product-name">Sarung Tangan Adidas</p>
+      <div class="label">
+        <span class="grosir">Grosir</span>
+        <span class="promo">Mulai dari</span>
+      </div>
+      <span class="price">Rp 10.000</span>
+      <p class="stock-info">Tersedia 59 stok</p>
+    </div>
+    <div class="product-item">
+      <img src="../img/2.png" alt="">
+      <p class="product-name">Sarung Tangan Adidas 2</p>
+      <div class="label">
+        <span class="grosir">Grosir</span>
+        <span class="promo">Mulai dari</span>
+      </div>
+      <span class="price">Rp 10.000</span>
+      <p class="stock-info">Tersedia 59 stok</p>
+    </div>
+  </div>
+</body>
+</html>
