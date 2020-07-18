@@ -30,3 +30,25 @@ body {
   flex: 1;
   order: 3;
 }
+
+/* Latihan 2 */
+.container-services {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.service {
+  width: 30%;
+  padding: 20px; /* agar tidak terlalu mepet */
+  box-sizing: border-box; /* Yang mengatur paddingnya, ukuran tidak berubah */
+}
+.service.one {
+  background-color: aqua;
+}
+.service.two {
+  background-color: red;
+}
+.service.three {
+  background-color: burlywood;
+}
