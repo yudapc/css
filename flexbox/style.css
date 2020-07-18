@@ -1,0 +1,16 @@
+.container {
+  width: 620px;
+  border: 2px solid #333;
+
+  /* start flexbox */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container div {
+  width: 120px;
+  height: 120px;
+  background-color: aqua;
+  margin: 2px;
+}
