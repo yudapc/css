@@ -92,6 +92,27 @@ body {
   transform: scale(1.12);
 }
 
+/* Latihan 5 Centering */
+.container-lima {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border: 5px solid #000;
+  display: flex;
+
+}
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.kotak span {
+  margin: auto;
+}
 
 
 /* Responsive */
